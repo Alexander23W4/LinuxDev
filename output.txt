@@ -1,5 +1,0 @@
-total 8
-drwxrwxr-x 5 wang wang 4096 10月  1 14:46 catkin_ws
--rw-rw-r-- 1 wang wang  433 1月   3 09:45 command.txt
--rw-rw-r-- 1 wang wang    0 1月   3 09:40 notice.txt
--rw-rw-r-- 1 wang wang    0 1月   3 10:10 output.txt
