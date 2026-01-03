@@ -1,0 +1,36 @@
+cd
+cd.. back to the previous location
+cd ~ to home
+mkdir
+rmdir
+cat
+touch
+rm
+-a -l -...
+man
+cat >> command.txt << EOF
+cd
+cd.. back to the previous location
+cd ~ to home
+mkdir
+rmdir
+cat
+touch
+rm
+-a -l -...
+man (manual)
+
+()--help
+
+cat >> ... << EOF
+mv   move / rename
+grep
+grep key words in a file
+cp
+cp copy
+cp upstart.txt sofi.txt   upstart->sofi
+pwd show path
+make directory mkdir
+remove diretory
+cd change directory
+EOF end of file

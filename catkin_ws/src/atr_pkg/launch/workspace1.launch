@@ -1,0 +1,6 @@
+<launch>
+    <node pkg = "ssr_pkg" type = "ultrasound_sensor_node" name = "ultrasound_sensor_node" launch-prefix = "gnome-terminal -e"/>
+    <node pkg = "atr_pkg" type = "encoder_node" name = "encoder_node" output = "screen"/>
+
+
+</launch>

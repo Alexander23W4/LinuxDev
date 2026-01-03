@@ -1,0 +1,2 @@
+atr_pkg:pwcar25_mapping:ros_tutorials/ros_tutorials:ros_tutorials/roscpp_tutorials:ros_tutorials/rospy_tutorials:ros_tutorials/turtlesim:ssr_pkg:vel_pkg:wpr_simulation
+-DCATKIN_DEVEL_PREFIX=/home/wang/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/wang/catkin_ws/install -G Unix Makefiles
