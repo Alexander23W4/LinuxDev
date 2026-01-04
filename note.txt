@@ -18,8 +18,11 @@ the modules of vim:
 
 ⭐：我们学习不同命令的本质， 是能够更方便的 学习使用更本质的工具进行开发
 
+->type man apropos
+这几个是用来学习的
+
 stream < > redirection stream
-pipeline | 
+pipeline |   pipeline 只能够走 stdin & stdout, 输出到终端的command不能够用来拼接管道。 
 man=Kobe
 echo "$man"
 
