@@ -1,12 +1,7 @@
 | 符号  | 类型                     |
 | --- | ---------------------- |
 | `-` | 普通文件                   |
-| nk）             |
-| `c` | 字符设备（character device） |
-| `b` | 块设备（block device）      |
-| `s` | 套接字（socket）            |
-| `p` | 命名管道（pipe）           |
-|`d` | 目录                     |
+| `d` | 目录                     |
 | `l` | 符号链接（link）             |
 | `c` | 字符设备（character device） |
 | `b` | 块设备（block device）      |
@@ -21,4 +16,54 @@ the modules of vim:
 可视化模式（一般，行，块）：选中文本块
 命令模式：用于执行命令
 
-流 输入流和输出流 < > 重定向
+⭐：我们学习不同命令的本质， 是能够更方便的 学习使用更本质的工具进行开发
+
+stream < > redirection stream
+pipeline | 
+man=Kobe
+echo "$man"
+
+Until now, let's make a deep dive to the bash shell gathering
+
+->type(command) 看看是什么类型的command
+executable  shell builtin   alias
+// type apt   type sudo
+
+->apropos man  看看是某command在manual的第几页
+
+->* . [] "" ''  搜索辅助符
+
+-> & 我先干别的  
+-> jobs  (list all the process out)
+// 包括jobID and PID
+-> ctrl-z暂停 ctrl-c终止
+-> fg bg kill   放回前端 放到back
+// fg %2  bg %1  kill%3
+
+secure shell 是用来安全地登陆远程服务器的协议。 建立加密的远程终端链接  
+
+-> ssh -p 2222 wang@192.168.1.10   user@remote_ip 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
