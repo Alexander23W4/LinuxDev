@@ -43,7 +43,7 @@ executable  shell builtin   alias
 secure shell 是用来安全地登陆远程服务器的协议。 建立加密的远程终端链接  
 
 -> ssh -p 2222 wang@192.168.1.10   user@remote_ip 
-
+-> ssh-agent  ssh-add  
 
 
 
