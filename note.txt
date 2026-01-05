@@ -18,6 +18,15 @@ the modules of vim:
 
 ⭐：我们学习不同命令的本质， 是能够更方便的 学习使用更本质的工具进行开发
 
+⭐：学习这些command的同时，内化linux system的设计哲学：
+-> everything is file
+-> text stream and pipeline
+-> small tools
+-> permission and ownership
+-> hierarchy and filesystem
+-> automation
+
+
 ->type man apropos
 这几个是用来学习的
 
@@ -48,8 +57,25 @@ secure shell 是用来安全地登陆远程服务器的协议。 建立加密的
 -> ssh -p 2222 wang@192.168.1.10   user@remote_ip 
 -> ssh-agent  ssh-add  
 
+-> ln -s 软连接（类似快捷方式） ln 硬连接 
+两种连接均不额外复制一份源文件 硬指针  软路径  纯复制用cp
+-> chmod chmod 775 note.txt    chmod [ugo][+-=][rwx] note.txt
 
+-> chown 更换file的owner & group
+-> du    du -hs *   human readable  summary  shelltype 查看磁盘占用情况
 
+-> df  disk free  查看磁盘空间
+-> lsblk  listblock  查看设备
+-> mount umount 挂载和卸载
+-> fdisk mkfs  分区与格式化
+-> inode
+
+network网络的部分：
+反复内化这 4 张表就够了：
+接口状态表（网卡有没有、up/down、IP 是什么）
+路由表（包往哪走）
+DNS 解析链路（名字 → IP）
+路径探测（包是怎么一步步走到目标的）
 
 
 
