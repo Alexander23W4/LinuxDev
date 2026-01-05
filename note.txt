@@ -77,8 +77,10 @@ network网络的部分：
 DNS 解析链路（名字 → IP）
 路径探测（包是怎么一步步走到目标的）
 
+-> ip link   ip addr  ip route   dig google.com  traceroute google.com
 
-
+grep 和 正则表达式 regular expression
+-> grep -i-o-v 
 
 
 
