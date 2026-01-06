@@ -80,26 +80,7 @@ DNS 解析链路（名字 → IP）
 -> ip link   ip addr  ip route   dig google.com  traceroute google.com
 
 grep 和 正则表达式 regular expression
--> grep -i-o-v
-
-xargs和tee是pipeline 同步工具
--> xargs将stdout的内容一个一个执行某command, 不破坏pipeline  
-ls -a | xargs file
--> tee 将stdout的内容重定向到某个file, 但是不破坏pipeline
-df -hf | tee diskfree.txt | grep ^a | sort
-
-grep awk sed sort wc uniq cut tr  这些是pipeline常驻命令， 用于manipulate stdout和stdin
-->awk  cat logfile | grep ERROR | awk '{ print $1, $5 }'
-
-awk 一种语法
-sed editor  | sed 's/and/AND/g' demo.txt
-sort
-wc   word count  not only count word, but the digit bytes lines...
-uniq   operate different & same
-cut   just cut
-tr   a small editor
-
-
+-> grep -i-o-v 
 
 
 
