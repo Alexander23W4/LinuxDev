@@ -99,7 +99,16 @@ uniq   operate different & same
 cut   just cut
 tr   a small editor
 
+--> bash shell通配符号使用  不是正则
+{}扩展  echo {a, bb, cc}--{1, 2}! 将所有最小项分别执行  [] 
+--> ?代表任意一个字符 *代表任意长度任意字符串  
 
+-> 正则表达式 在shell中需要用‘’单引号括起来 一般来说配合 stream processing tools 使用 exp. grep awk sed vim
+
+⭐：学完这些之后，用shell写脚本，就是把这些tools组合，写到一个.sh文件， 然后bash xx.sh 运行
+    比较程式化复杂的脚本就用 C语言写 
+    
+linux C getopt（） fopen（） fscanf（） fprintf（）等函数
 
 
 
