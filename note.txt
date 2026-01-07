@@ -126,3 +126,4 @@ linux C getopt（） fopen（） fscanf（） fprintf（）等函数
 
 
 
+passward?
