@@ -112,6 +112,7 @@ linux C getopt（） fopen（） fscanf（） fprintf（）等函数
 
 gcc compiler  gdb debugger:
 gcc 生成 .out  binary executable file
+gcc -ggdb -.. test.c -o test.out
 执行.out 文件
 若报错：
 1. 程序执行中 → CPU 算术错误 → 发出 SIGFPE 信号
@@ -137,7 +138,10 @@ Core 文件结构：
 │ 共享库         │ ← printf 等库函数
 └─────────────────┘
 
+->read core file by GDB, find the bug:
+gdb ./test.out core ./core.....
 
+common used command in (gdb) mode: f 1  f 2.... list(list the code context of the crash line) p ...(print)
 
 
 
