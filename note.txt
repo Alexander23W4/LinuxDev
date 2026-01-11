@@ -178,7 +178,7 @@ Haskell -> |    GHC   | -+                 +-> | llvm-riscv | -> RISC-V
 
 链接: .o->.out executable   将.o文件和C runtime 运行时环境打包形成可执行文件.out
 
-
+编译器和运行时环境是 C语言标准（C11 C99...) 的 主要体现
 
 
 
