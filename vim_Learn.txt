@@ -1,0 +1,75 @@
+go through all the lecture exercises 
+vim is a model editor 
+do different kind of editing
+writing lot of code, reading , browse, trivial...   different mode
+
+normal mode + other mode 
+mormal mode  navigation 
+insert mode  for normal typing texts (i)
+replace mode  (R)
+
+modes for selection : visual mode  visual line   visual block  (V, S-V, C-V)
+
+command line mode (:)   
+ 
+command line mode -> some basic command: q wq sp tabnew help 
+normal mode -> ^PO   vim's interface is a programming language 
+cursor moving : w b e   moving to the next last and the front fo the next word
+cursor moving : 0 $ ^  moving through the line
+cursor moving : ^u ^d  moving paging up and down through the buffer
+cursor moving : L M H  whole bunch of way of moving
+
+find character: f* F*  t* T*  find and Till some character
+complement:  o O
+
+------------------------  previous are a bunch of movement and navigation operation
+
+delete  d+(operate)*   x  
+change
+undo  u
+redo  ^r
+copy paste    y yw yy   p
+
+------------------------
+
+visual mode: select 
+three visual mode 
+
+
+tips: *(num) k    numbers of k is pressed
+
+------------------------  
+
+modifier
+
+A I 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
