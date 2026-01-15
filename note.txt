@@ -1,3 +1,27 @@
+最近的plan：
+1.
+Linux平台：
+干完MSCS
+vim, git ->
+-> regex, shell脚本, 熟练使用常用集（+补充，from note.txt)
+
+2.
+LinuxC：
+Learn C the hard way
+并且熟悉LinuxC的编译优化调试流程, gcc gdb objdump lint
+保证C代码的规范性（按照总结的simulationC的要求）
+
+3.
+xEMU
+
+4.
+Logisim minirv
+
+茶余饭后：
+linux101  
+C standard -- 3 behavior
+RISC-V manual
+
 | 符号  | 类型                     |
 | --- | ---------------------- |
 | `-` | 普通文件                   |
