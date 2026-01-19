@@ -1,0 +1,22 @@
+THE COMMANDS THAT I HAVE TO REMEMBER AND ALWAYS USE
+
+cd pwd mkdir rmdir ls cp rm mv tar
+cat more less head tail file find
+
+xargs tee
+
+⭐: grep awk sed sort wc uniq cut tr    regex
+
+->TASK OPERATION
+jobs ps top kill free lsof
+
+OTHERS
+man aprops
+
+type
+chmod chown
+du df lsblk mount   fdisk
+
+ip link  ip addr  ip route   dig
+
+exit

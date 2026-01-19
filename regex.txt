@@ -1,0 +1,33 @@
+
+the regular mode that the regex do is the operation will do only once for a line
+and the operation is always do only once for a single line when use pipeline operation
+
+
+The regex must be used with the specific groups of shell operator 
+grep  sed  uniq....    are the commonly used
+
+All the regex writed in bash shell should be surrounded by ()
+
+* zero or more of that character
+. any single character 
++ one or more of that character
+
+grep "abc" file           # 精确匹配abc
+grep "a.*b" file          # a后面任意字符到b
+grep "^abc" file          # 行首abc  
+grep "abc$" file          # 行尾abc
+grep -E "(ab|cd)" file    # 或关系
+
++: >=1
+?: 0/1
+*: >=0
+.: every single character
+
+\w  \s  match any words / space
+
+{a, b} range between a and b
+[]     any          [A-Z]
+()     the own group    
+^      the beginning of the line
+$      replace
+
