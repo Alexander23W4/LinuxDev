@@ -1,3 +1,9 @@
+SYSTEM OPERATION REVERSE:
+1. make Esc->Caps
+gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape']"
+gsettings reset org.gnome.desktop.input-sources xkb-options
+
+-------------------------------------------------------------------------------
 最近的plan：
 1.
 Linux平台：
@@ -252,7 +258,7 @@ tips: *(num) k    numbers of k is pressed
 
 modifier
 
-A I 
+A I       --> this two is useful 
 
 
 
