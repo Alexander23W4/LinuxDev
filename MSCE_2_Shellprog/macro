@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "$0"
+echo "$(pwd)"
+
+macro(){
+    export MACRO_DIR="$(pwd)"
+    echo "Your current diretory $(pwd) is successfully saved"
+}
+
+polo(){
+    if [ -n "$MACRO_DIR" ]; then 
+        cd "$MACRO_DIR"
+        echo "Return successfull"
+    else
+        echo "macro missed"
+    fi
+}
+
+
+
+
+
