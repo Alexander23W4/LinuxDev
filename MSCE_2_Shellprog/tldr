@@ -1,0 +1,2 @@
+#!/bin/bash
+firefox "https://tldr.inbrowser.app/pages/common/$1"
