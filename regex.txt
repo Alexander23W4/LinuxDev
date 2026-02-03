@@ -22,6 +22,7 @@ grep -E "(ab|cd)" file    # 或关系
 ?: 0/1
 *: >=0
 .: every single character
+.*: any bunch of characters combination
 
 \w  \s  match any words / space
 
